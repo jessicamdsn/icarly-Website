@@ -1,0 +1,9 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(76, 45, 133);
+}
+.header{
+  position: relative;
+  z-index: 100;
+}
