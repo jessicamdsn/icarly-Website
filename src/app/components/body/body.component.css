@@ -1,5 +1,5 @@
 .content{
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   width: 85%;
   margin: 0 auto;
   margin-top: -53px;
@@ -7,7 +7,96 @@
   border: 5px solid rgb(255, 255, 255) ;
   box-shadow: 0px 0px 0px 8px rgb(255, 255, 255);
 }
-.video{
-  width: 50%;
-  background-color: rgb(255, 220, 124);
+.body{
+  display: flex;
 }
+.assistir{
+  width: 610px;
+}
+.tv{
+  position: relative;
+  z-index: 10;
+  margin-left: -50px;
+  filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.3)); 
+}
+.video{
+  position: relative;
+  z-index: 100;
+  top: -355px;
+  left: 38px;
+}
+
+.ziper{
+  width: 390px;
+  margin-left: -65px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 4px solid black;
+}
+.extras p{
+  position: relative;
+  z-index: 100;
+  font-size: 18px;
+}
+.extras span{
+  color:#a0c440 ;
+}
+.sam{
+  position: relative;
+  z-index: 100;
+  bottom: 200px;
+  left: -45px;
+  display: flex;
+  gap: 8px;
+  p{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    width: 200px;
+    letter-spacing: 1px;
+    color: aliceblue;
+  }
+  hr{
+    width: 300px;
+    margin-left: -100px;
+  }
+  .star{
+    margin-top: 4px;
+    margin-bottom: -4px;
+    display: flex;
+    gap: 6px;
+    p{
+      color: yellow;
+      margin-top: 5px;
+    }
+  }
+  }
+  .missy{
+    margin-top: 8px;
+    display: flex;
+    margin-left: -105px;
+    gap: 8px;
+  }
+
+
+  .seta-esquerda {
+    width: 120px; /* Largura do corpo */
+    height: 50px; /* Altura */
+    position: relative;
+    background-color: #0078ff; 
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  .seta-esquerda::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -25px; /* Posição da ponta da seta */
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid #0078ff; /* Cor da ponta */
+  }
+  

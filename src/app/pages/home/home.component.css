@@ -1,7 +1,7 @@
 .content{
   display: flex;
   flex-direction: column;
-  background-color: rgb(76, 45, 133);
+  background-color: #3a4a8b;
 }
 .header{
   position: relative;
