@@ -1,14 +1,17 @@
 .content{
   background-color: rgb(255, 255, 255);
-  width: 85%;
+  width: 1147px;
   margin: 0 auto;
   margin-top: -53px;
   padding-top: 55px;
   border: 5px solid rgb(255, 255, 255) ;
   box-shadow: 0px 0px 0px 8px rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
 }
 .body{
   display: flex;
+  height: 370px;
 }
 .assistir{
   width: 610px;
@@ -78,25 +81,73 @@
     gap: 8px;
   }
 
+  .placas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    gap: 30px;
+    height: 300px;
+    background-image: url(../../../assets/barra.png);
+    background-size: cover; /* Faz a imagem cobrir a div sem distorcer */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; 
+    margin-left: -30px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+
+  }
 
   .seta-esquerda {
     width: 120px; /* Largura do corpo */
     height: 50px; /* Altura */
     position: relative;
-    background-color: #0078ff; 
+    background-color: #a0c440; 
     border-radius: 5px;
-    margin-top: 50px;
+    box-shadow: 5px 4px 0px 2px #e0e427;
+    margin-top: 30px;
+    padding-top: 10px;
+    color: #215819;
   }
   
   .seta-esquerda::before {
     content: "";
     position: absolute;
-    top: -15px;
-    left: -25px; /* Posição da ponta da seta */
+    top: -10px;
+    left: -30px; /* Posição da ponta da seta */
     width: 0;
     height: 0;
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
-    border-right: 40px solid #0078ff; /* Cor da ponta */
+    border-right: 40px solid #a0c440; 
+  }
+
+  .placa{
+    width: 120px; /* Largura do corpo */
+    height: 50px; /* Altura */
+    position: relative;
+    background-color: #f9fac9; 
+    border-radius: 5px;
+    box-shadow: 5px 4px 0px 2px #a0c440;
+    border: .5px solid #a0c440;
+    padding-top: 10px;
+    color: #3a4a8b;
+  }
+
+  .see-button{
+    background-color: #e9374c;
+    font-size:14px;
+    padding: 7px 15px;
+    border: none;
+    color: #f9fac9;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .see-button-box{
+    margin-top: -170px;
+    margin-left: -40px;
   }
   
