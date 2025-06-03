@@ -1,6 +1,6 @@
 # 🎬✨ Projeto: Site do iCarly ✨🎬  
 
-![iCarly Banner](https://media.giphy.com/media/xT9DPnG9fGZytCWBIY/giphy.gif)
+![iCarly Banner](https://media1.tenor.com/m/Kr9rT15CfW0AAAAd/icarly-icarly-interesting.gif)
 
 ## 💻 Sobre o Projeto
 
@@ -59,7 +59,10 @@ Se você também era fã de iCarly, espero que esse projeto traga um sorriso no 
 
 ## 📸 Preview
 
-![preview](https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif)
+[icarly Website](https://icarly-website.vercel.app/)
+
+
+![preview](https://media1.tenor.com/m/eTUmbgm9pSAAAAAC/icarly-miranda.gif)
 
 ---
 
