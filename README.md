@@ -1,27 +1,68 @@
-# IcarlyWebsite
+# 🎬✨ Projeto: Site do iCarly ✨🎬  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+![iCarly Banner](https://media.giphy.com/media/xT9DPnG9fGZytCWBIY/giphy.gif)
 
-## Development server
+## 💻 Sobre o Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Esse projeto foi um verdadeiro *momento nostalgia*! 🌈  
+Se você cresceu assistindo **iCarly**, com certeza vai lembrar do site que eles tinham dentro da série — onde a Carly, o Freddie e a Sam postavam vídeos malucos, quadros engraçados e muita aleatoriedade!  
 
-## Code scaffolding
+🎉 **Eu recriei esse site como se ele realmente existisse de verdade!**  
+Foi uma viagem no tempo que deixou minha criança interior **muito feliz** 🥹💖
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🛠️ Tecnologias Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Esse projeto foi desenvolvido com:
 
-## Running unit tests
+- ⚡ **Angular** — estrutura principal
+- 🎨 **Angular Material** — para estilização moderna com componentes prontos
+- 💠 **Bootstrap** — para deixar tudo ainda mais responsivo e estiloso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🚀 Como rodar o projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/icarly-site.git
+   Acesse a pasta do projeto:
+    cd icarly-site
+   
+    Instale as dependências:
+    npm install
+   
+    Rode o projeto:
+    ng serve
+   
+    Abra no navegador:
+    http://localhost:4200
+   ```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## 🌟 Resultado
+
+É como abrir um portal direto para os anos 2000!  
+Você vai encontrar referências, visual colorido, e a vibe **iCarly** do jeitinho que era na TV! 📺✨
+
+---
+
+## 💌 Agradecimentos
+
+Esse projeto é uma homenagem à série que marcou minha infância.  
+Recriar esse site foi mais do que código: foi reviver memórias incríveis! 💖  
+Se você também era fã de iCarly, espero que esse projeto traga um sorriso no seu rosto 😊
+
+---
+
+## 📸 Preview
+
+![preview](https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif)
+
+---
+
+📌 *“Prontos? 5... 4... 3... 2...”* 🎥  
+Feito com carinho 💙
+
